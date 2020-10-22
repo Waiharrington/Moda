@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Dancing Script', cursiva;
+	background-color:#1c2b2d;
+}
+
+/*section header*/
+
+.main-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-header .list {
+	width: 50%;
+	display: flex;
+}
+
+.main-header .list > a > .home-list {
+	background-color: #1f6f8b;
+	color: #e6d5b8;
+	padding: 15px;
+	border-radius: 35px;
+}
+
+.main-header .list > a {
+	font-size: 23px;
+	text-decoration: none;
+	color: #e6d5b8;
+	font-weight: bold;
+	flex-grow: 1;
+}
+
+/*section Home*/
+
+.home {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.home .text-home {
+	width: 600px;
+	text-align: justify;
+	color: #e6d5b8;
+	margin-left: 80px;
+	font-size: 20px;
+}
+
+.home .text-home > .btns > .btn-home {
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	background-color: #1f6f8b;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 35px;
+	width: 120px;
+}
+
+.home .text-home > .title-home{
+	font-size: 80px;
+	margin-top: 15px
+	margin-bottom: 10px;
+	text-align: center;
+	color: #e6d5b8;
+
+}
+
+.home .btns {
+	text-align: center;
+}
+
+.home .img-home img{
+	margin-right: 100px
+}
+
+/*About*/
+
+.about{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about .text-about {
+	width: 1000px;
+	text-align: center;
+	color: #e6d5b8;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.about .text-about > .title-about{
+	font-size: 80px;
+	margin-top: 15px
+	margin-bottom:0px;
+	text-align:auto;
+	color: #e6d5b8;
+
+}
+
+.about .img-about img{
+	margin-top:100px;
+}
+
+
+/*Servicios*/
+
+
+.title-services{
+	font-size: 80px;
+	margin-top: 40px
+	margin-bottom: 10px;
+	text-align: center;
+	color: #e6d5b8;
+}
+
+.card-deck{
+	margin-bottom: 50px;
+}
+.card-deck .card{
+	display: flex;
+	margin-top: 10px;
+}
+
+.card-deck .card .card-body .card-title{
+text-align: center;
+color: #e6d5b8;
+}
+
+.card-deck .card .card-body .card-text{
+color: #e6d5b8;
+text-align: center;
+
+}
+
+/*Contact*/
+
+/*contactos*/
+
+.contact{
+	display: flex;
+	align-items:center;
+	background-color: #1c2b2d;
+}
+
+.contact .form-contact{
+	margin-left:110px;
+	box-sizing: content-box;
+	border-radius: 0;
+    margin-bottom: 20px;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.contact .form-contact input{
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	background-color: #99a8b2;
+	color: #e6d5b8;
+	font-size: 18px;
+	border-radius: 10px;
+	width: 120px;
+}
+
+.contact .form-contact textarea{
+	margin-top: 30px;
+	margin-left: 0px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	background-color: #99a8b2;
+	color: #e6d5b8;
+	font-size: 18px;
+	border-radius: 10px;
+	width: 120px;
+}
+
+.contact .img-contact{
+	margin-bottom: 90px;
+	margin-right: 100px;
+
+}
+
+.title-contact{
+	font-size: 80px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #e6d5b8;
+}
+
